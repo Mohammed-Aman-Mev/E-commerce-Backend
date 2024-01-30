@@ -8,7 +8,7 @@ interface user extends Document {
   photo: string;
   role: "user" | "admin";
   gender: "male" | "female";
-  dob: Date;
+  dob: Date | any;
   createdAt: Date;
   updatedAt: Date;
   //virtual atribute
